@@ -1,0 +1,44 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.main-section{
+
+	/* margin: 5%; */
+	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+
+#genre{
+	flex-wrap: nowrap;
+}
+
+.genre-card{
+	width:30%;
+
+	position: relative;
+	margin: 10px;
+	overflow: hidden;
+}
+.genre-card img{
+	filter: blur(2px);
+}
+.genre-card img:hover{
+	
+	transform: scale(2);
+	transition: transform  1s;
+}
+.genre-text{
+    border: 2px solid white;
+    padding: 5px 20px;
+    color:rgb(255, 255, 255);
+	position: absolute;
+	font-size: 2rem;
+	top: 40%;
+    right: 0px;
+	width: auto;
+	text-align: center;
+}
